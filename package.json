@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/bcdesarrollos/backdes#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sequelize": "^6.31.1"
   }
 }

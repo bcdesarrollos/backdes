@@ -1,4 +1,5 @@
 import express from "express";
+const { conn } = require('./src/db.js');
 
 const app = express();
 const port = 9000;
