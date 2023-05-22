@@ -6,7 +6,7 @@ const { Sequelize } = require('sequelize');
 //   logging: false, // set to console.log to see the raw SQL queries
 //   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 // });
-const sequelize = new Sequelize("postgresql://postgres:WN4LXtI1zdnusJ6BuMkl@containers-us-west-72.railway.app:6268/railway", {
+const sequelize = new Sequelize("postgres://default:R5x0BDaLHguk@ep-small-wood-574603.us-east-1.postgres.vercel-storage.com:5432/verceldb", {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
